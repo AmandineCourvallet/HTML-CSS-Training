@@ -20,6 +20,10 @@
 
   }
 
+  a{ 
+ 	text-decoration: none;
+  }
+
 #btn-contact{
 	color: white;
 	background-color: rgba(114, 13, 229, 0.7);
@@ -59,7 +63,7 @@
 }
 
 .contact-list-item{
-	display: block;
+	display: inline;
 	font-size: 40px;
 }
 
