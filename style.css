@@ -1,0 +1,107 @@
+/* Colors and fonts */
+
+
+ body { 
+ 	color: rgb(87, 87, 87);
+ 	font-family: 'Montserrat', sans-serif;
+ 	text-align: justify-all;
+ 	font-size: 17px;
+ 	font-weight: lighter;
+ 	background: rgb(250, 250, 250)
+  }
+
+  h1 { 
+ 	color: #0e93b7;
+ 	font-weight: bold;
+ 	 }
+
+ h2 { 
+ 	color: #57d1d6;
+
+  }
+
+#btn-contact{
+	color: white;
+	background-color: rgba(114, 13, 229, 0.7);
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+#btn-contact:hover {
+	background-color: #5c1fa3
+}
+ .avatar{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+.card {
+	box-shadow: 1px 1px 10px rgb(180, 180, 180);
+	padding: 15px 60px;
+	text-align: center;
+	margin: 30px 0;
+	background-color: white;
+
+}
+
+.contact-list {
+	list-style: none;
+	font-size: 40px;
+
+}
+
+.contact-list-item{
+	display: block;
+	font-size: 40px;
+}
+
+.icon {
+	color: #5c1fa3
+}
+
+@media (max-width: 500px){
+.container {
+	width: 100%;
+	margin: auto;
+}
+.card {
+	box-shadow: 0.5px 0.5px 5px rgb(180, 180, 180);
+	padding: 5px 30px;
+	margin: 15px 0;
+}
+
+#btn-contact{
+	color: white;
+	background-color: rgba(114, 13, 229, 0.7);
+	text-decoration: none;
+	padding: 3px 7px;
+	border-radius: 5px;
+}
+
+@media (max-width: 300px){
+.container {
+	width: 100%;
+	margin: auto;
+}
+.card {
+	box-shadow: 0.5px 0.5px 5px rgb(180, 180, 180);
+	padding: 5px 30px;
+	margin: 15px 0;
+}
+
+#btn-contact{
+	color: white;
+	background-color: rgba(114, 13, 229, 0.7);
+	text-decoration: none;
+	padding: 3px 7px;
+	border-radius: 5px;
+}
+}
